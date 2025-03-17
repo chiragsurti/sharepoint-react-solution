@@ -1,0 +1,46 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "spfx-react-solution-client-side-solution",
+    "id": "6a8be4df-c000-4f77-ab00-899dc19fdd06",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.21.0-beta.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "spfx-react-solution description"
+      },
+      "longDescription": {
+        "default": "spfx-react-solution description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "spfx-react-solution Feature",
+        "description": "The feature that activates elements of the spfx-react-solution solution.",
+        "id": "eb637e26-a546-467c-94a6-c1961f314865",
+        "version": "1.0.0.0",
+        "assets": {
+          "elementManifests": [
+            "elements.xml",
+            "ClientSideInstance.xml"
+          ]
+        }
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/spfx-react-solution.sppkg"
+  }
+}

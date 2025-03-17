@@ -1,0 +1,9 @@
+{
+  "id": "06cfdd12-2806-4618-a5ef-27b35be87f39",
+  "alias": "SharedLibLibrary",
+  "componentType": "Library",
+
+  // The "*" signifies that the version should be taken from the package.json
+  "version": "*",
+  "manifestVersion": 2
+}
